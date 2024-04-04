@@ -1,3 +1,5 @@
+<!-- before starting you must have a 
+Python  version > 3.11.0 -->
 cd .\backend_challenge\
 
 
@@ -11,7 +13,8 @@ python manage.py migrate
 python manage.py shell
 
 from django.contrib.auth.models import User
-<!-- these user are dummy users you can create your desired user  -->
+<!-- these user are dummy users you can create your desired user
+  -->
 user1 = User.objects.create_user(username='user1', password='password1', is_staff=True)
 user2 = User.objects.create_user(username='user2', password='password2', is_staff=True)
 
