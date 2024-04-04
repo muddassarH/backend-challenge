@@ -1,3 +1,6 @@
+cd .\backend_challenge\
+
+
 pip install -r .\requirements.txt
 
 python manage.py makemigrations
